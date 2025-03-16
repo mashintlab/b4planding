@@ -215,6 +215,10 @@ td, th {
   box-sizing: border-box;
 }
 
+#global-expansion{
+  display: flex;
+  justify-content: space-around;
+}
 html {
   height: 100%;
 }
@@ -3246,8 +3250,8 @@ figcaption {
   color: var(--white);
   text-align: center;
   letter-spacing: .025em;
-  background-color: #0000;
-  background-image: linear-gradient(#a605df, #a605df);
+  background-color: #3d58a5;
+  /* background-image: linear-gradient(#a605df, #a605df); */
   border-radius: 50em;
   padding: .9em 1.8em;
   font-family: Poppins, sans-serif;
@@ -3289,13 +3293,13 @@ figcaption {
 }
 .content-wrapper {
   z-index: 10;
-  background-color: var(--orange);
   -webkit-backdrop-filter: blur(100px);
   backdrop-filter: blur(100px);
   border-radius: 1.2em;
   width: 100%;
   position: relative;
   overflow: hidden;
+  background: linear-gradient(-90deg, #2fd5a5 , #097df8);
 }
 
 .blurred-color {
@@ -3394,7 +3398,9 @@ figcaption {
   padding: 2rem 1rem;
   border-radius: 2rem;
 }
-
+#competitor .heading.newsection{
+  border-radius: unset;
+}
 .heading.newsection.gradient {
   background-image: linear-gradient(140deg, var(--purple), #d606d3 28%, #e60e9c 43%, #ef3d32 60%, var(--orange) 75%, #ffd900 102%);
   margin-top: .8em;
@@ -3407,7 +3413,7 @@ figcaption {
 }
 
 .subtitle {
-  background-color: var(--orange);
+  background: linear-gradient(-90deg, #2fd5a5 , #097df8);
   color: var(--white);
   letter-spacing: .13em;
   text-transform: uppercase;
@@ -4575,7 +4581,8 @@ figcaption {
 
 .blur-hero {
   z-index: -10;
-  background-color: var(--blur-blue);
+  background-color: var(--transparent-bg);
+  background-image: linear-gradient(-90deg, #2fd5a5 , #097df8);
   filter: blur(90px);
   border-radius: 100%;
   width: 250px;
@@ -4615,7 +4622,8 @@ figcaption {
 
 .blur-block-b {
   z-index: -10;
-  background-color: var(--blur-blue);
+  background-color: var(--transparent-bg);
+  background-image: linear-gradient(-90deg, #2fd5a5 , #097df8);
   filter: blur(150px);
   border-radius: 100%;
   width: 50em;
@@ -4777,7 +4785,8 @@ figcaption {
 
 .blur-block-top-left {
   z-index: -10;
-  background-color: var(--blur-blue);
+  /* background-color: var(--transparent-bg); */
+  /* background-image: linear-gradient(-90deg, #2fd5a5 , #097df8); */
   filter: blur(150px);
   border-radius: 100%;
   width: 50em;
