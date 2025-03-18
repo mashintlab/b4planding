@@ -22,6 +22,10 @@ audio:not([controls]) {
   display: none;
 }
 
+#benefits .image-feature{
+  width: 30%;
+}
+
 [hidden], template {
   display: none;
 }
