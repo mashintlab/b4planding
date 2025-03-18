@@ -244,10 +244,11 @@ img {
 }
 
 #landscape-token{
-  
+  scale: 0.8;
 }
 
 #portrait-token{
+  
   display: none;
 }
 
