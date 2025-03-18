@@ -239,6 +239,14 @@ img {
   display: inline-block;
 }
 
+#landscape-token{
+  
+}
+
+#portrait-token{
+  display: none;
+}
+
 html.w-mod-touch * {
   background-attachment: scroll !important;
 }
@@ -796,7 +804,12 @@ textarea.w-input, textarea.w-select {
   .w-container {
     max-width: 728px;
   }
-
+#landscape-token{
+  display: none;
+}
+#portrait-token{
+  display: block;
+}
   .w-hidden-main {
     display: inherit !important;
   }
@@ -2087,6 +2100,7 @@ textarea.w-input, textarea.w-select {
   grid-template-columns: 1fr 1fr;
   grid-auto-columns: 1fr;
   display: grid;
+  align-content: space-evenly;
 }
 
 .w-commerce-commercecheckoutformcontainer {
@@ -3297,6 +3311,7 @@ figcaption {
   backdrop-filter: blur(100px);
   border-radius: 1.2em;
   width: 100%;
+  /* height: 35rem; */
   position: relative;
   overflow: hidden;
   background: linear-gradient(-90deg, #2fd5a5 , #097df8);
@@ -3335,7 +3350,7 @@ figcaption {
 .feature {
   flex-direction: column;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   height: 100%;
   display: flex;
 }
@@ -3344,9 +3359,12 @@ figcaption {
   border-radius: 1em;
   width: 85%;
   max-width: 100%;
+  /* height: 500px; */
+  /* height: fit-content; */
   /* margin: 30px 0 20px 30px; */
   padding-right: 0;
   display: block;
+  justify-self: center;
 }
 
 .paragraph-feature {
@@ -3679,8 +3697,8 @@ figcaption {
 
 .banner {
   perspective: 1300px;
-  background-image: linear-gradient(#0000002b, #0000002b), url("https://cdn.prod.website-files.com/664c893b6522935bc6a9150a/667286073c367c090b40a966_energy_image%20copy.png");
-  background-position: 0 0, 50% 100%;
+  background-image: linear-gradient(#0000002b, #0000002b), url("../images/banner.png");
+  background-position: 0 0px, 50% 50%;
   background-size: auto, cover;
   flex-direction: column;
   justify-content: center;
@@ -3706,6 +3724,7 @@ figcaption {
   margin-bottom: .6em;
   padding-bottom: 9px;
   font-family: Poppins, sans-serif;
+  font-size: 1.5rem;
 }
 
 .paragraph-banner {
@@ -4600,6 +4619,7 @@ figcaption {
   justify-content: flex-start;
   align-items: flex-start;
   width: 100%;
+  height: 11rem;
   padding-bottom: 2.5em;
   padding-left: 1.7em;
   padding-right: 1.7em;
@@ -4876,6 +4896,14 @@ figcaption {
   max-width: 100%;
   height: 100%;
   margin: 30px 0 0;
+  border-radius: 10%;
+  filter: drop-shadow(2px 4px 6px black);
+  scale: 0.8;
+}
+
+#overview .image-3{
+  border-radius: 2rem;
+  filter: drop-shadow(2px 4px 6px black);
 }
 
 .error-message-2 {
@@ -4944,7 +4972,7 @@ figcaption {
 
 .ex9-submit-btn {
   letter-spacing: 0;
-  background-color: #ff5c00;
+  background: linear-gradient(-90deg, #2fd5a5 , #097df8);
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   height: 60px;
