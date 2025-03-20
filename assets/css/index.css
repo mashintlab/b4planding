@@ -3415,7 +3415,7 @@ figcaption {
   -webkit-background-clip: text;
   background-clip: text;
   max-width: 24em;
-  font-size: 2.5em;
+  font-size: 1.5em;
   border: 2px solid black;
   margin: 1rem 1rem;
   padding: 2rem 1rem;
@@ -5519,6 +5519,19 @@ figcaption {
   scale: 0.8;
   filter: drop-shadow(2px 4px 6px black);
   scale: 2;
+}
+
+  .heading.newsection {
+  background-image: linear-gradient(140deg, var(--dark-blue-0), black 13%, var(--dark-blue-0));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  max-width: 24em;
+  font-size: 1.5em;
+  border: 2px solid black;
+  margin: 1rem 1rem;
+  padding: 2rem 1rem;
+  border-radius: 2rem;
 }
 
    
