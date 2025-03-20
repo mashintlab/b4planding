@@ -3319,7 +3319,7 @@ figcaption {
   /* height: 35rem; */
   position: relative;
   overflow: hidden;
-  background: linear-gradient(-90deg, #2fd5a5 , #097df8);
+  background: #c42c9d;
 }
 
 .blurred-color {
